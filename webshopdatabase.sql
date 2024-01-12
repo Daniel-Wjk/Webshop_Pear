@@ -118,12 +118,6 @@ CREATE TABLE `user` (
 ) ;
 
 --
--- Daten für Tabelle `user`
---
-
-INSERT INTO `user` (`UserID`, `firstname`, `lastname`, `email`, `Password`, `Google2FSecret`, `LoginStatus`, `OnlineStatus`, `LastOnline`, `Resolution`) VALUES
-(5, 'Sai Teja', 'Mucherla', 'mucherlasaiteja12@gmail.com', '$2y$10$7DhtJL5QhJfarzsd8PjtbuoogvTMkNJhuesbROSszwXWXAZsw12/G', 'SLZE32Y2UDY357YA', 1, 1, '2024-01-12 17:38:49', '1536x703'),
-(6, 'Pear', 'Fan', 'pearfan44@gmail.com', '$2y$10$tGorsrXeeGh/fkBw/e.DFOa0PCk6eqECtN.IVvjH25Bv2p2DD/UHK', 'EP23XGPGFRYRWRQ7', 1, 1, '2024-01-12 20:01:36', '1920x953');
 
 -- --------------------------------------------------------
 
@@ -141,7 +135,7 @@ CREATE TABLE `useronline` (
 --
 
 INSERT INTO `useronline` (`ID`, `numOnline`) VALUES
-(0, 2);
+(0, 0);
 
 --
 -- Indizes der exportierten Tabellen
