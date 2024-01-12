@@ -37,21 +37,6 @@ CREATE TABLE `order` (
   `finalSum` float DEFAULT NULL
 ) ;
 
---
--- Daten für Tabelle `order`
---
-
-INSERT INTO `order` (`OrderID`, `UserID`, `ProductID`, `Amount`, `time`, `Versand`, `finalSum`) VALUES
-('6r832NsN2kk', 6, 1, 7, '2024-01-12 17:20:47', 'DHL Express', 7774.52),
-('6r832NsN2kk', 6, 6, 6, '2024-01-12 17:20:47', 'DHL Express', 12306.9),
-('f48fIBhh3K9', 5, 8, 7, '2024-01-12 16:50:13', 'DHL Express', 6643.35),
-('GTducpJ1seC', 6, 1, 7, '2024-01-12 17:21:59', 'DHL Express', 7774.52),
-('GTducpJ1seC', 6, 6, 6, '2024-01-12 17:21:59', 'DHL Express', 12306.9),
-('TtbnymsLQfw', 5, 8, 7, '2024-01-12 13:57:50', 'DHL Express', 6643.35),
-('udfc2FaUdsk', 6, 1, 10, '2024-01-12 19:02:40', 'DHL Express', 11106.5),
-('udfc2FaUdsk', 6, 7, 7, '2024-01-12 19:02:40', 'DHL Express', 9270.76),
-('uJO9krW8KYd', 5, 9, 7, '2024-01-11 10:02:52', 'DHL Express', 1789.52);
-
 -- --------------------------------------------------------
 
 --
